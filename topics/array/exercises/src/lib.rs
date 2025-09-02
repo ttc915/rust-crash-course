@@ -1,11 +1,13 @@
+#![allow(unused)]
+
 pub fn zeros() -> [u32; 100] {
-    todo!();
+    [0; 100]
 }
 
 pub fn first_3(s: &[u32]) -> &[u32] {
-    todo!();
+    &s[..3]
 }
 
 pub fn last_3(s: &[u32]) -> &[u32] {
-    todo!();
+    &s[s.len() - 3..]
 }
