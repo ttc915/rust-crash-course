@@ -1,5 +1,6 @@
 #![allow(unused)]
 
+// fn print_len(s: String) {
 fn print_len(s: &String) {
     println!("len: {}", s.len());
 }
@@ -25,6 +26,7 @@ fn main() {
 
     // Exercise 3
     let s = String::from("Rust");
+    // print_len(s);
     print_len(&s);
     println!("s: {s}");
 }
