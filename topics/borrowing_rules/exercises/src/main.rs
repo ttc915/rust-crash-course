@@ -7,7 +7,9 @@ fn print_len(s: &String) {
 fn main() {
     // Exercise 1
     let s = String::from("Rust");
+    // let s1 = &mut s;
     let s1 = &s;
+    // let s2 = &mut s;
     let s2 = &s;
 
     println!("s1: {s1}");
